@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    display: inline-block;
+    width: 300px;
+    white-space: nowrap; 
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+ .paragraph {
+    display: inline-block;
+    height: 110px;
+    /* white-space: nowrap; */
+    flex-wrap: wrap; 
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    padding-top: 10px;
+} 
