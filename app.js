@@ -159,6 +159,7 @@ async function fetchData() {
         let url = 'https://fakestoreapi.com/products';
         let response = await fetch(url);
         data = await response.json();
+        console.log(data);
         renderPage();
     } catch (error) {
         console.error('Error fetching data:', error);
@@ -264,6 +265,4 @@ searchBtn.addEventListener("click", () => {
     renderPage();
 });
 
-// Fetch the data when the page loads
 fetchData();
-
